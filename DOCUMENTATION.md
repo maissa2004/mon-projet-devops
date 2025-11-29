@@ -18,6 +18,7 @@
 - Configuration des permissions Tomcat
 - Authentification GitHub avec tokens
 - Gestion des branches Git
+
 ## Configuration SonarQube
 
 ### Installation :

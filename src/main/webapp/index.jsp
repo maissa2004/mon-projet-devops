@@ -120,7 +120,7 @@
         <div class="card" style="border-left: 4px solid #ff6b6b;">
             <h2> Nouvelle Fonctionnalite</h2>
             <p><strong>Branche :</strong> new_feature</p>
-            <p><strong>Description :</strong> Cette fonctionnalite a ete developpée dans une branche séparée et fusionnée avec master</p>
+            <p><strong>Description :</strong> Cette fonctionnalite a ete developpee dans une branche separee et fusionnee avec master</p>
             <p><strong>Environnement :</strong> <%= System.getProperty("user.name") %></p>
             <p><strong>Timestamp :</strong> <%= new java.util.Date() %></p>
             <div style="background: #fff3cd; padding: 10px; border-radius: 5px; margin-top: 10px;">
