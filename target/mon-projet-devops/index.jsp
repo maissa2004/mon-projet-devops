@@ -68,18 +68,18 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🚀 Projet DevOps - ISET Kairouan</h1>
-            <p>Déploiement Automatisé avec Jenkins, Maven et Tomcat</p>
+            <h1> Projet DevOps - ISET Kairouan</h1>
+            <p>Deploiement Automatise avec Jenkins, Maven et Tomcat</p>
         </div>
 
         <div class="success-message">
-            <h3>✅ Déploiement Réussi !</h3>
-            <p>L'application a été déployée automatiquement via le pipeline CI/CD</p>
+            <h3> Deploiement Reussi !</h3>
+            <p>L'application a ete deployee automatiquement via le pipeline CI/CD</p>
         </div>
 
         <div class="info-grid">
             <div class="card">
-                <h2>📊 Informations Serveur</h2>
+                <h2> Informations Serveur</h2>
                 <p><strong>Date/Heure:</strong> <%= new java.util.Date() %></p>
                 <p><strong>Système:</strong> <%= System.getProperty("os.name") %></p>
                 <p><strong>Architecture:</strong> <%= System.getProperty("os.arch") %></p>
@@ -88,7 +88,7 @@
             </div>
 
             <div class="card">
-                <h2>🛠 Technologies Utilisées</h2>
+                <h2> Technologies Utilisees</h2>
                 <div>
                     <span class="tech-badge">Java</span>
                     <span class="tech-badge">Maven</span>
@@ -103,21 +103,39 @@
         </div>
 
         <div class="card">
-            <h2>📈 Étapes du Pipeline DevOps</h2>
+            <h2> Etapes du Pipeline DevOps</h2>
             <ol>
                 <li>Commit du code sur GitHub</li>
-                <li>Déclenchement automatique de Jenkins</li>
+                <li>Declenchement automatique de Jenkins</li>
                 <li>Build avec Maven</li>
-                <li>Génération du fichier WAR</li>
-                <li>Déploiement sur Tomcat</li>
-                <li>Redémarrage du serveur</li>
+                <li>Generation du fichier WAR</li>
+                <li>Deploiement sur Tomcat</li>
+                <li>Redemarrage du serveur</li>
                 <li>Test automatique</li>
             </ol>
         </div>
 
+       
+        <!--  NOUVELLE FONCTIONNALITÉ - Branche new_feature -->
+        <div class="card" style="border-left: 4px solid #ff6b6b;">
+            <h2> Nouvelle Fonctionnalite</h2>
+            <p><strong>Branche :</strong> new_feature</p>
+            <p><strong>Description :</strong> Cette fonctionnalite a ete developpée dans une branche séparée et fusionnée avec master</p>
+            <p><strong>Environnement :</strong> <%= System.getProperty("user.name") %></p>
+            <p><strong>Timestamp :</strong> <%= new java.util.Date() %></p>
+            <div style="background: #fff3cd; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                <strong> Workflow Git :</strong>
+                <ol style="margin: 10px 0;">
+                    <li>Creation branche <code>new_feature</code></li>
+                    <li>Developpement fonctionnalite</li>
+                    <li>Commit et push</li>
+                    <li>Merge avec <code>master</code></li>
+              </ol>
+            </div>
+        </div>
         <div class="card">
-            <h2>👨‍💻 Équipe DSI31</h2>
-            <p><strong>Étudiante:</strong> Mayssa</p>
+            <h2> Equipe DSI31</h2>
+            <p><strong>Etudiante:</strong> Mayssa</p>
             <p><strong>Module:</strong> Atelier DevOps</p>
             <p><strong>Institution:</strong> ISET Kairouan</p>
         </div>
